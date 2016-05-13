@@ -5,7 +5,7 @@ Home: http://github.com/mitsuhiko/markupsafe
 
 Package license: BSD 3-clause
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: A Python module that implements the jinja2.Markup string
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/markupsafe-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/markupsafe-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/markupsafe-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/markupsafe-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/markupsafe-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/markupsafe-feedstock/branch/master)
