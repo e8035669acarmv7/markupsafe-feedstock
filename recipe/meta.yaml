@@ -1,4 +1,4 @@
-{% set version = "0.18" %}
+{% set version = "0.23" %}
 
 package:
   name: markupsafe
@@ -6,8 +6,8 @@ package:
 
 source:
   fn: MarkupSafe-{{ version }}.tar.gz
-  url: https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-{{ version }}.tar.gz
-  md5: f8d252fd05371e51dec2fe9a36890687
+  url: https://pypi.io/packages/source/M/MarkupSafe/MarkupSafe-{{ version }}.tar.gz
+  md5: f5ab3deee4c37cd6a922fb81e730da6e
 
 build:
   number: 0
