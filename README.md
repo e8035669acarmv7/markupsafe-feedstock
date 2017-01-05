@@ -11,6 +11,18 @@ Summary: A Python module that implements the jinja2.Markup string
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/markupsafe-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/markupsafe-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/markupsafe-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/markupsafe-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/markupsafe-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/markupsafe-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/markupsafe/badges/version.svg)](https://anaconda.org/conda-forge/markupsafe)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/markupsafe/badges/downloads.svg)](https://anaconda.org/conda-forge/markupsafe)
+
 Installing markupsafe
 =====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `markupsafe` available on your pla
 ```
 conda search markupsafe --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/markupsafe-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/markupsafe-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/markupsafe-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/markupsafe-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/markupsafe-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/markupsafe-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/markupsafe/badges/version.svg)](https://anaconda.org/conda-forge/markupsafe)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/markupsafe/badges/downloads.svg)](https://anaconda.org/conda-forge/markupsafe)
 
 
 Updating markupsafe-feedstock
