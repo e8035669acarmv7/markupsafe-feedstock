@@ -29,7 +29,7 @@ about:
   home: https://www.palletsprojects.com/p/markupsafe
   license: BSD-3-Clause
   license_family: BSD
-  license_file: LICENSE
+  license_file: LICENSE.rst
   summary: A Python module that implements the jinja2.Markup string
   dev_url: https://github.com/pallets/markupsafe
 
