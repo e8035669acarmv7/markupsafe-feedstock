@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: markupsafe
@@ -6,11 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/M/MarkupSafe/MarkupSafe-{{ version }}.tar.gz
-  sha256: 4fae0677f712ee090721d8b17f412f1cbceefbf0dc180fe91bab3232f38b4527
+  sha256: 594c67807fb16238b30c44bdf74f36c02cdf22d1c8cda91ef8a0ed8dabf5620a
 
 build:
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  skip: true   # [py2k]
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
@@ -26,6 +27,10 @@ requirements:
 test:
   imports:
     - markupsafe
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://www.palletsprojects.com/p/markupsafe
