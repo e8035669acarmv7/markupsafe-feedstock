@@ -23,6 +23,8 @@ requirements:
     - pip
   run:
     - python
+  run_constrained:
+    - jinja2 >=3.0.0
 
 test:
   imports:
