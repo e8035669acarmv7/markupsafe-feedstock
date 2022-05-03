@@ -39,8 +39,15 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.rst
-  summary: A Python module that implements the jinja2.Markup string
+  summary: Safely add untrusted strings to HTML/XML markup.
+  description: |
+      MarkupSafe implements a text object that escapes characters so it is
+      safe to use in HTML and XML. Characters that have special meanings are
+      replaced so that they display as the actual characters. This mitigates
+      injection attacks, meaning untrusted user input can safely be displayed
+      on a page.
   dev_url: https://github.com/pallets/markupsafe
+  doc_url: https://markupsafe.palletsprojects.com/
 
 extra:
   recipe-maintainers:
