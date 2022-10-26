@@ -7,9 +7,18 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/markupsafe-feedstock/blob/main/LICENSE.txt)
 
-Summary: A Python module that implements the jinja2.Markup string
+Summary: Safely add untrusted strings to HTML/XML markup.
 
 Development: https://github.com/pallets/markupsafe
+
+Documentation: https://markupsafe.palletsprojects.com/
+
+MarkupSafe implements a text object that escapes characters so it is
+safe to use in HTML and XML. Characters that have special meanings are
+replaced so that they display as the actual characters. This mitigates
+injection attacks, meaning untrusted user input can safely be displayed
+on a page.
+
 
 Current build status
 ====================
@@ -36,10 +45,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.7.____cpython</td>
+              <td>linux_64_python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=616&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/markupsafe-feedstock?branchName=main&jobName=linux&configuration=linux_64_python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/markupsafe-feedstock?branchName=main&jobName=linux&configuration=linux_64_python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -78,10 +87,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.7.____cpython</td>
+              <td>linux_aarch64_python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=616&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/markupsafe-feedstock?branchName=main&jobName=linux&configuration=linux_aarch64_python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/markupsafe-feedstock?branchName=main&jobName=linux&configuration=linux_aarch64_python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -120,10 +129,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_python3.7.____cpython</td>
+              <td>linux_ppc64le_python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=616&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/markupsafe-feedstock?branchName=main&jobName=linux&configuration=linux_ppc64le_python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/markupsafe-feedstock?branchName=main&jobName=linux&configuration=linux_ppc64le_python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -162,10 +171,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.7.____cpython</td>
+              <td>osx_64_python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=616&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/markupsafe-feedstock?branchName=main&jobName=osx&configuration=osx_64_python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/markupsafe-feedstock?branchName=main&jobName=osx&configuration=osx_64_python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -204,6 +213,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_arm64_python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=616&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/markupsafe-feedstock?branchName=main&jobName=osx&configuration=osx_arm64_python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_arm64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=616&branchName=main">
@@ -225,10 +241,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.7.____cpython</td>
+              <td>win_64_python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=616&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/markupsafe-feedstock?branchName=main&jobName=win&configuration=win_64_python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/markupsafe-feedstock?branchName=main&jobName=win&configuration=win_64_python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -391,4 +407,5 @@ Feedstock Maintainers
 * [@ocefpaf](https://github.com/ocefpaf/)
 * [@pelson](https://github.com/pelson/)
 * [@scopatz](https://github.com/scopatz/)
+* [@xylar](https://github.com/xylar/)
 
