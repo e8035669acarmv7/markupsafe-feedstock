@@ -1,11 +1,11 @@
-About markupsafe
-================
+About markupsafe-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/markupsafe-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.palletsprojects.com/p/markupsafe
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/markupsafe-feedstock/blob/main/LICENSE.txt)
 
 Summary: Safely add untrusted strings to HTML/XML markup.
 
