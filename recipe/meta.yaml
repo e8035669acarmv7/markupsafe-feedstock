@@ -1,5 +1,5 @@
 {% set name = "markupsafe" %}
-{% set version = "2.1.3" %}
+{% set version = "2.1.5" %}
 
 package:
   name: markupsafe
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/MarkupSafe-{{ version }}.tar.gz
-  sha256: af598ed32d6ae86f1b747b82783958b1a4ab8f617b06fe68795c7f026abbdcad
+  sha256: d283d37a890ba4c1ae73ffadf8046435c76e7bc2247bbb63c00bd1a709c6544b
 
 build:
   number: 0
